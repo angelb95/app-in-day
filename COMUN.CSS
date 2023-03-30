@@ -1,0 +1,287 @@
+/* SECCION ENCABEZADO */
+
+
+.ENCABEZADO {
+    display: flex;
+    justify-content: space-around;
+    align-items: CENTER;
+    background-color: #fad201;
+    margin: -10px -10px -10px -10px;
+    position: relative;
+}
+
+
+.ENCABEZADO > .LOGO img {
+   
+    height: 100px; 
+}
+
+.TELEFONO {
+    font-size: 1.5EM;
+    color: white;
+}
+.btn {
+    background-color:black;
+    border: 1px red;
+    height: 50px;
+    transition: 0.3s;
+    border-radius: 40px;
+    color: white;
+}
+
+.btn:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.SECCION-SERVICIO-A-DOMICILIO  {
+    background-image: url(./IMAGENES/MENU/PORTADAS/PORTADA\ MR\ ALITAS.png);
+    padding: 100px;
+    height: 400px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 1470px 550px;
+    background-repeat: no-repeat;
+    background-color: black;
+    margin: 0px -10px 0px -10px;
+}
+
+/* SECCION LINKS DE NAVEGACIÓN */
+
+.SECCION-MENU {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    padding: 100px;
+    background-color: black;
+    margin: 0px -10px 0px -10px;
+    color: white;
+}
+
+.LINKS-DE-NAVEGACION {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding-bottom: 70px;
+    margin: 0px -10px 0px -10px;
+}
+
+.LINKS-DE-NAVEGACION a {
+    color:#fad201;
+    font-size: 1.4em;
+    transition: .05s;
+    text-decoration: wavy;
+}
+
+.LINKS-DE-NAVEGACION a:hover{
+    color: red;
+    font-size: 1.4em;
+    letter-spacing: 2px;
+}
+
+/* PORTADA SALSAS */
+
+.PORTADA-SALSAS {
+    background-image: url(./IMAGENES/MENU/PORTADAS/PORTADA\ SALSAS.png);
+    padding: 100px;
+    height: 400px;
+    background-size: cover;
+    background-size: 1470px 550px;
+    background-repeat: no-repeat;
+    background-color: black;
+    margin: 0px -10px 0px -10px;
+}
+
+/* UBICACIÓN */
+
+.TITULO-UBICACION {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    font-size: 1.9em;
+    margin: 0px -10px 0px -10px;
+    padding-bottom: 40px;
+    letter-spacing: 2px;
+    color: #fad201;
+}
+
+.UBICACION {
+    margin: 0px -10px 0px -10px;
+}
+/* PIE DE PÁGINA */
+.PIE-DE-PAGINA {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fad201;
+    height: 100PX;
+    font-size: 1.4EM;
+    margin: -4px -10px -10px -10px;
+    color: white;
+}
+
+.PIE-DE-PAGINA > .DERECHOS-RESERVADOS a {
+    text-decoration: wavy;
+}
+
+/* SECCION MENUS */
+
+.ENCABEZADO-MENUS {
+    display: flex;
+    justify-content: space-around;
+    align-items: CENTER;
+    background-color: #fad201;
+    margin: -10px;
+    position: relative;
+    
+}
+
+.ENCABEZADO-MENUS > .LOGO img {
+    height: 100px; 
+} 
+.PORTADA-MENUS {
+    background-image: url(./IMAGENES/MENU/PORTADAS/PORTADA\ ALITAS.png);
+    padding-bottom: 100px;
+    height: 400px;
+    background-size: cover;
+    background-size: 1430px 550px;
+    background-repeat: no-repeat;
+    background-color: black;
+    margin: 0px -10px 0px -10px;
+    
+}
+
+.LINKS-DE-NAVEGACION-MENUS {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    height: 100PX;
+    margin: 0px -10px 0px -10px;
+
+}
+
+.LINKS-DE-NAVEGACION-MENUS a {
+    color:#fad201;
+    font-size: 1.4em;
+    transition: .05s;
+    text-decoration: wavy;
+}
+
+.LINKS-DE-NAVEGACION-MENUS a:hover{
+    color: red;
+    font-size: 1.4em;
+    letter-spacing: 2px;
+}
+.PRODUCTO {
+    display: flex;
+    justify-content: center;
+    justify-items:end;
+    background-color: black;
+    margin: 0px -10px 0px -10px;
+}
+.DESCRIPCION {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2EM;
+    margin: 0px -10px 0px 0px;
+    color: white;
+    
+}
+.ELIGE-TU-SALSA {
+    display: flex;
+    align-items:center;
+    font-size: 1.2em;
+    color: white;
+   
+}
+
+.PRODUCTO > .IMAGEN img {
+    height: 400px;
+    margin: 0PX 0PX 0PX -00PX;
+}
+
+.BOTON-MENUS {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding-bottom: 10px;
+   background-color: black;
+   margin: 0PX -10PX 0PX -10PX;
+   
+} 
+
+.BOTON-MENUS button {
+    background-color: green;
+    color: white;
+    transition: 0.5s;
+    
+}
+
+.BOTON-MENUS button:hover {
+    background-color: greenyellow;
+    cursor: pointer;
+    color: black;
+    
+}
+
+.PORTADA-MENU-BONELESS {
+    background-image: url(./IMAGENES/MENU/PORTADAS/PORTADA\ BONELESS.png);
+    padding-bottom: 100px;
+    height: 400px;
+    background-size: cover;
+    background-size: 1430px 550px;
+    background-repeat: no-repeat;
+    background-color: black;
+    margin: 0px -10px 0px -10px;
+}
+
+.PORTADA-MENU-HAMBURGUESAS {
+    background-image: url(./IMAGENES/MENU/PORTADAS/PORTADA\ HAMBURGUESAS.png);
+    padding-bottom: 100px;
+    height: 400px;
+    background-size: cover;
+    background-size: 1430px 550px;
+    background-repeat: no-repeat;
+    background-color: black;
+    margin: 0px -10px 0px -10px;
+
+}
+
+.PORTADA-MENU-ENSALADAS {
+    background-image: url(./IMAGENES/MENU/PORTADAS/PORTADA\ ENSALADAS.png);
+    padding-bottom: 100px;
+    height: 400px;
+    background-size: cover;
+    background-size: 1430px 550px;
+    background-repeat: no-repeat;
+    background-color: black;
+    margin: 0px -10px 0px -10px;
+
+}
+
+.PORTADA-MENU-PAPAS {
+    background-image: url(./IMAGENES/MENU/PORTADAS/PORTADA\ PAPAS.png);
+    padding-bottom: 100px;
+    height: 400px;
+    background-size: cover;
+    background-size: 1430px 550px;
+    background-repeat: no-repeat;
+    background-color: black;
+    margin: 0px -10px 0px -10px;
+
+}
+
+.PORTADA-AVISO {
+    background-image: url(./IMAGENES/MENU/PORTADAS/AVISO\ DE\ PRIVACIDAD.png);
+    padding-bottom: 100px;
+    height: 400px;
+    background-size: cover;
+    background-size: 1400px 550px;
+    background-repeat: no-repeat;
+    background-color: black;
+    margin: 0px -10px 0px -10px;
+}
+
